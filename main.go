@@ -114,7 +114,6 @@ func (p *Parser) handleConstant(line string) error {
 	if len(parts) != 2 {
 		return ErrInvalidSyntax
 	}
-
 	name := strings.TrimSpace(parts[0])
 	valueStr := strings.TrimSpace(parts[1])
 
