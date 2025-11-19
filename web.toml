@@ -1,0 +1,22 @@
+[server]
+name = "MyWebServer"
+port = 8080
+ssl_port = 8443
+total_ports = 16523
+max_connections = 150
+first_char_code = 65
+absolute_value = 42
+next_port = 8081
+[database]
+host = "localhost"
+user = "admin"
+name = "myapp"
+port = 5432
+[security]
+allowed_hosts = ["example.com", "api.example.com", "static.example.com"]
+supported_ports = [80, 443, 8080, 8443]
+file_permissions = 420
+dir_permissions = 493
+[features]
+enabled = true
+maintenance_mode = false

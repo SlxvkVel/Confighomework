@@ -1,0 +1,21 @@
+[player]
+name = "Hero"
+level = 1
+max_health = 100
+health = 80
+experience_multiplier = 2
+[graphics]
+screen_width = 1920
+screen_height = 1080
+total_pixels = 2073600
+fullscreen = true
+vsync = false
+[physics]
+gravity = 9
+jump_force = 6
+terminal_velocity = 50
+[game_settings]
+difficulty_levels = ["Easy", "Normal", "Hard", "Expert"]
+enemy_types = ["Goblin", "Orc", "Dragon", "Boss"]
+starting_items = ["Sword", "Potion", "Map", "Key"]
+first_letter_code = 71
