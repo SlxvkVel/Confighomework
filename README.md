@@ -15,8 +15,8 @@
 ```
 
 #### 2. Числа
-- Восьмеричные: `0o755`, `0O644`
-- Десятичные: `8080`, `42`
+0[oO][0-7]+
+
   
 #### 3. Массивы
 ```conf
@@ -88,6 +88,7 @@ go run main.go web.conf web.toml
 ```bash
 go run main.go game.conf game.toml
 ```
+
 
 
 
